@@ -5,8 +5,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="banner">
+    <div>      <div className="banner ">
         <Menubar></Menubar>
         <div className="container">
           <div className="row">
