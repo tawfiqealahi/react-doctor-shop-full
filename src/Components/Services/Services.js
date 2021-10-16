@@ -22,18 +22,19 @@ const Services = () => {
       </div>
       <div className="service-cart container-fluid">
         <div className="row">
-          <div className="col-md-3">
-            <div className="cart  ">
-              <div className="cart-image">
-                <img src="#" alt="" />
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-                  assumenda aliquam cum atque, recusandae ipsa?
-                </p>
+        {
+            data?.map(e=>(
+                <div key={e.id} className="col-md-4 col-xl-3 col-sm-6">
+                <div className="cart-service p-3 border rounded text-center">
+                  <div className="cart-image">
+                    <img src={e.image} alt="" />
+                    <h2>{e.name}</h2>
+                <p>{e.price}</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            ))
+        }
         </div>
 
         {/* cart practice */}

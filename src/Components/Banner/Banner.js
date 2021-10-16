@@ -9,15 +9,19 @@ const Banner = () => {
         <Menubar></Menubar>
         <div className="container">
           <div className="row">
-            <div className="col-md-8 hero-writting-part">
+            
+            <div className="col-md-8">
+            {/* <div className="hero-writting-part"> */}
               <h1 className="hero-heading">
                 Take care of your <br /> Health Now!
               </h1>
               <h3>Sale up to 30% all products</h3>
-              <Button className=" m-5 " variant="danger">
+              <Button className=" m-3  " variant="danger">
                 Shop Now
               </Button>
+            {/* </div> */}
             </div>
+            
             <div className="col-md-4">
                 
             </div>

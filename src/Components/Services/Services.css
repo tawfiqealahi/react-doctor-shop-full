@@ -14,6 +14,12 @@
 }
 .service-cart{
     width:100%;
+    height:100%;
+}
+.cart-service{
+    width:80%;
+    height:2rem
+
 }
 .prevent-heading{
     font-size:2.5rem;
