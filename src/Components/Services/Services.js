@@ -26,8 +26,8 @@ const Services = () => {
             data?.map(e=>(
                 <div key={e.id} className="col-md-4 col-xl-3 col-sm-6">
                 <div className="cart-service p-3 border rounded text-center">
-                  <div className="cart-image">
-                    <img src={e.image} alt="" />
+                  <div className="cart">
+                  <img src={e.image} alt="" />
                     <h2>{e.name}</h2>
                 <p>{e.price}</p>
                   </div>
